@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: openSans-regular;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 1310px;
+    background-color: var(--clr4);
+    color: var(--clr1);
+}
+
+h1,
+h2 {
+    font-family: raleway-bold;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+}
+
+h5 {
+    font-family: openSans-bold;
+}
+
+h6 {
+    font-family: openSans-regular;
+}
+
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}

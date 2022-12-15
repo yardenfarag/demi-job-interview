@@ -1,0 +1,20 @@
+.header {
+    padding-inline: 5rem;
+    padding-block-start: 4.6875rem;
+    padding-block-end: 3rem;
+
+    .logo{ 
+        img {
+            height: 3.0625em;
+        }
+    }
+    ul {
+        gap: 3.625rem;
+        li {
+            a {
+                text-transform: capitalize;
+                font-size: 1rem;
+            }
+        }
+    }
+}
