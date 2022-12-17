@@ -9,9 +9,10 @@ html {
 body {
     margin: auto;
     padding: 0;
-    width: 1310px;
     background-color: var(--clr4);
     color: var(--clr1);
+    background-image: url('../../assets//images//bg-curvy-desktop.svg');
+    background-size: contain;
 }
 
 h1,
@@ -43,4 +44,8 @@ h5,
 h6 {
     padding: 0;
     margin: 0;
+}
+
+.main-layout>*:not(.main-nav, .full) {
+    width: 1310px;
 }

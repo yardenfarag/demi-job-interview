@@ -1,5 +1,5 @@
 <template>
-    <main class="main-content flex column align-center">
+    <main class="main-content flex column align-center main-layout">
         <div class="intro flex align-center column">
             <img src="../assets/images/illustration-intro.png">
             <h1>All your files in one secure location, accessible anywhere.</h1>
@@ -57,50 +57,55 @@
         </div>
 
         <div class="reviews flex">
-            <div class="quites">
+            <div class="quotes">
                 <img src="../assets/images/bg-quotes.png">
             </div>
-            <div class="review">
-                <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team
-                    has become a well-oiled collaboration machine.</p>
-                <div class="reviewer">
-                    <div class="avatar">
-                        <img src="../assets/images/profile-1.jpg">
-                    </div>
-                    <div class="reviewer-info">
-                        <h5 class="full-name">Satish Patel</h5>
-                        <h6 class="job">Founder & CEO, Huddle</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="review">
-                <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team
-                    has become a well-oiled collaboration machine.</p>
-                <div class="reviewer">
-                    <div class="avatar">
-                        <img src="../assets/images/profile-2.jpg">
-                    </div>
-                    <div class="reviewer-info">
-                        <h5 class="full-name">Bruce McKenzie</h5>
-                        <h6 class="job">Founder & CEO, Huddle</h6>
+            <div class="reviews-container flex">
+                <div class="review">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                        team
+                        has become a well-oiled collaboration machine.</p>
+                    <div class="reviewer">
+                        <div class="avatar">
+                            <img src="../assets/images/profile-1.jpg">
+                        </div>
+                        <div class="reviewer-info">
+                            <h5 class="full-name">Satish Patel</h5>
+                            <h6 class="job">Founder & CEO, Huddle</h6>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="review">
-                <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team
-                    has become a well-oiled collaboration machine.</p>
-                <div class="reviewer">
-                    <div class="avatar">
-                        <img src="../assets/images/profile-3.jpg">
+                <div class="review">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                        team
+                        has become a well-oiled collaboration machine.</p>
+                    <div class="reviewer">
+                        <div class="avatar">
+                            <img src="../assets/images/profile-2.jpg">
+                        </div>
+                        <div class="reviewer-info">
+                            <h5 class="full-name">Bruce McKenzie</h5>
+                            <h6 class="job">Founder & CEO, Huddle</h6>
+                        </div>
                     </div>
-                    <div class="reviewer-info">
-                        <h5 class="full-name">Iva Boyd</h5>
-                        <h6 class="job">Founder & CEO, Huddle</h6>
+                </div>
+                <div class="review">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                        team
+                        has become a well-oiled collaboration machine.</p>
+                    <div class="reviewer">
+                        <div class="avatar">
+                            <img src="../assets/images/profile-3.jpg">
+                        </div>
+                        <div class="reviewer-info">
+                            <h5 class="full-name">Iva Boyd</h5>
+                            <h6 class="job">Founder & CEO, Huddle</h6>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="contact">
+        <div class="contact flex column align-center">
             <h1>Get early access today</h1>
             <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
                 questions, our support team would be happy to help you.</p>

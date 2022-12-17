@@ -1,4 +1,53 @@
 .main-content {
+
+    .contact {
+        width: 863px;
+        height: 275px;
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+        background-color: var(--clr4);
+        margin-block-end: -115px;
+
+
+        h1 {
+            margin-block-start: 42px;
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 14px;
+            line-height: 21px;
+            width: 673px;
+            height: 41px;
+            margin-block-start: 16px;
+            margin-block-end: 39px;
+        }
+
+        form {
+            margin-block-end: 41px;
+            display: flex;
+            gap: 29px;
+            input {
+                width: 480px;
+                height: 48px;
+                box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+                border-radius: 24px;
+                border: 0;
+                font-size: 12px;
+                padding-inline-start: 38px;
+            }
+            &::placeholder {
+                color: #c0c0c0;
+            }
+            button {
+                font-size: 14px;
+                padding: 15px 26px 15px 27px;
+            }
+        }
+    }
+
     .intro {
         margin-block-end: 10.75rem;
 
@@ -66,6 +115,7 @@
     .guide {
         gap: 3.5625rem;
         margin-block-end: 11.25rem;
+
         .info {
             h1 {
                 width: 30.25rem;
@@ -78,18 +128,34 @@
             }
 
             .link-to-guide {
+                cursor: pointer;
                 width: fit-content;
                 color: var(--clr2);
-                border-bottom: 1px solid var(--clr2)
+                border-bottom: 1px solid var(--clr2);
+                padding-block-end: 4px;
+                img {
+                    margin-inline-start: 3px;
+                    margin-block-end: -3px;
+                    width: 14px;
+                    height: 14px;
+                }
             }
 
         }
     }
 
     .reviews {
-        gap: 2.5rem;
-
+        margin-block-end: 200px;
+        
+        .reviews-container {
+            gap: 2.5rem;
+            margin-inline-start: -47px;
+            margin-block-start: 35px;
+        }
+        
         .review {
+            border-radius: 4px;
+            z-index: 10;
             width: 22.5rem;
             height: 12.5rem;
             background-color: var(--clr5);
@@ -118,13 +184,13 @@
                     display: flex;
                     flex-direction: column;
                     gap: 4px;
-                    
+
                     h5 {
                         font-size: 0.625rem;
                         letter-spacing: 0.5px;
                         line-height: 12px;
                     }
-                    
+
                     h6 {
                         width: 100px;
                         font-size: 0.5rem;
